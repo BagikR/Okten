@@ -1,0 +1,155 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrap{
+    width: 1300px;
+    min-height: 600px;
+}
+
+.menu{
+    display: flex;
+    border-bottom: 1px solid #c4c4c4c4;
+    
+}
+
+.menu_left{
+    width: 650px;
+    height: 66px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_left >a{
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 300;
+}
+
+.menu_right{
+    width: 650px;
+    height: 66px;   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.menu_right >a{
+    color: #c4c4c4;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 23px;
+    transition: 500ms;
+}
+
+.menu_right >a:hover{
+    color: #087DE4;    
+}
+
+.reviews_title{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 70px;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+
+.reviews-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.review {
+    width: 430px;
+}
+
+.review >p{
+    padding: 20px;
+    border-left: 2px solid #ED8651;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px
+}
+
+.review >h3{
+    margin-top: 29px;
+    margin-bottom: 25px;
+    margin-left: 24px;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+}
+
+.header{
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    color: #000000;
+    margin: 45px 0 86px 170px;
+}
+
+.coorse{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1027px;
+    margin: auto;
+}
+
+.coorse_type{
+    width: 297px;
+    height: 574px;
+    box-sizing: border-box;
+}
+
+.coorse_name{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    margin-top: 21px;
+    margin-bottom: 1px;
+}
+
+.coorse_about {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 24px;
+    color: #C0C0C0;
+    text-align: center;
+    margin-bottom: 29px;
+}
+
+.coorse_text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ED8651;
+    padding-top: 29px;
+    padding-bottom: 58px;
+}
+
+.line1{
+    margin-bottom: 54px;
+}
+
+.line2{
+    margin-bottom: 115px;
+}
+
+.footer_coorse{
+    width: 1453px;
+    height: 90px;
+    background-color: #00A8F0;
+}
